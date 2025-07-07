@@ -1,0 +1,163 @@
+h2{
+   
+    margin: 0;
+    font-size: 48px;
+    
+     text-align: left;
+    
+    
+}
+
+
+
+p{
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+h4{
+    font-size: 38px;
+    padding: 50px;
+    margin: 0;
+    padding-top: 50px;
+    text-align: left;
+    
+}
+
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: upper-roman;
+    list-style-image: url(/pointer-icon.png);
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+a:hover{
+    background-color: aquamarine;
+    color: #ffffff;
+
+}
+
+
+body{
+    background: linear-gradient(123deg, #f19d8a, #dfb715);
+    flex-direction: column;
+}
+
+.gallery{
+    
+    border-radius: 50px;
+
+}
+
+
+img{
+    border-radius: 50px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 5px;
+    margin-top: 95px;
+    align-content: center;
+    
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:31.5%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Reset some basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
